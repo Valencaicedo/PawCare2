@@ -101,6 +101,9 @@
             app:layout_constraintTop_toBottomOf="@id/nombre_paseador" />
 
         <!-- Rating -->
+
+        <!-- Certificado -->
+
         <RatingBar
             android:id="@+id/rating"
             style="?android:attr/ratingBarStyleSmall"
@@ -111,12 +114,24 @@
             android:stepSize="1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.8"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.2" />
+            app:layout_constraintVertical_bias="0.057" />
 
-        <!-- Certificado -->
+        <ImageView
+            android:id="@+id/btn_reservar"
+            android:layout_width="85dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="48dp"
+            android:clickable="true"
+            android:contentDescription="Reservar"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rating"
+            app:srcCompat="@mipmap/agendar_icono" />
+
 
         <!-- Favorito -->
 
@@ -130,10 +145,10 @@
         app:cardCornerRadius="120dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.567"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.872">
+        app:layout_constraintVertical_bias="0.925">
 
         <!-- Foto -->
 
@@ -165,6 +180,9 @@
             app:layout_constraintTop_toBottomOf="@id/nombre_paseador_favorito" />
 
         <!-- Rating -->
+
+        <!-- Certificado -->
+
         <RatingBar
             android:id="@+id/rating_favorito"
             style="?android:attr/ratingBarStyleSmall"
@@ -175,12 +193,24 @@
             android:stepSize="1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.983"
+            app:layout_constraintHorizontal_bias="0.8"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.371" />
+            app:layout_constraintVertical_bias="0.057" />
 
-        <!-- Certificado -->
+        <ImageView
+            android:id="@+id/btn_reservar_favorito"
+            android:layout_width="85dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="48dp"
+            android:clickable="true"
+            android:contentDescription="Reservar"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rating_favorito"
+            app:srcCompat="@mipmap/agendar_icono" />
+
 
         <!-- Favorito -->
 
